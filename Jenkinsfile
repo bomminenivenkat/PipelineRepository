@@ -13,7 +13,7 @@ pipeline {
                 step {
                 echo 'Hello World from PipelineRepository from GitHub in Step 3 & Stage 1'
                 }
-                            
+            }              
             }
         stage('World') {
             steps {
@@ -26,8 +26,7 @@ pipeline {
                 step {
                 echo 'Hello World from PipelineRepository from GitHub in Step 3 & Stage 2'
                 }
-                            
+            }            
             }
         }
     }
-}
